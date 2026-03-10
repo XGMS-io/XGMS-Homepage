@@ -25,17 +25,21 @@ export default function Home() {
       {/* ───────── Hero Section ───────── */}
       <section className="flex flex-col items-center justify-center text-center px-6 py-32">
         <div className="inline-block px-4 py-1.5 mb-6 text-xs font-medium text-blue-300 bg-blue-950 rounded-full border border-blue-800">
-          Now Building · Launching 2026
+          Global Medical Platform
         </div>
-        <h1 className="text-5xl md:text-6xl font-bold leading-tight max-w-3xl">
-          The Global Standard for
+        <h1 className="text-5xl md:text-7xl font-bold leading-tight max-w-3xl">
+          XGMS ONE
           <br />
-          <span className="text-blue-400">Hospital Data Platform</span>
+          <span className="text-blue-200 text-3xl md:text-3xl">
+              The e<span className="text-blue-400 font-bold">X</span>tended{" "}
+                <span className="text-blue-400 font-bold">G</span>lobal{" "}
+                  <span className="text-blue-400 font-bold">M</span>edical{" "}
+                    <span className="text-blue-400 font-bold">S</span>tandard
+                    </span>
         </h1>
         <p className="mt-6 text-lg text-gray-400 max-w-2xl leading-relaxed">
-          XGMS ONE is a cloud-based EMR SaaS platform built on regulatory
-          compliance, clinical safety, and privacy-preserving architecture —
-          from Day 1.
+          XGMS ONE is a cloud-based EMR SaaS platform designed to help hospitals deliver safer, 
+          smarter, and more trusted care — anywhere in the world.
         </p>
         <div className="flex gap-4 mt-10">
           <a
@@ -53,6 +57,18 @@ export default function Home() {
         </div>
       </section>
 
+      {/* ───────── About Section ───────── */}
+      <section id="about" className="px-8 py-24 border-t border-gray-800">
+        <div className="max-w-3xl mx-auto text-center">
+          <h2 className="text-3xl font-bold mb-8">What is XGMS ONE?</h2>
+          <p className="text-gray-400 text-lg leading-relaxed">
+            XGMS ONE is a next-generation cloud-based EMR platform built for global healthcare. 
+            It brings together everything a hospital needs — from patient records to intelligent clinical insights — 
+            in one trusted, standards-driven SaaS solution.
+          </p>
+        </div>
+      </section>
+
       {/* ───────── Core Values Section ───────── */}
       <section id="values" className="px-8 py-24 border-t border-gray-800">
         <h2 className="text-3xl font-bold text-center mb-16">
@@ -66,9 +82,7 @@ export default function Home() {
             </div>
             <h3 className="text-xl font-semibold mb-3">Clinical Safety</h3>
             <p className="text-gray-400 leading-relaxed">
-              Fail-closed architecture ensures patient data integrity. Every
-              clinical workflow is governed by the Technical Constitution with
-              mandatory audit trails.
+              Every clinical workflow is designed to protect patient data integrity by default — with built-in safeguards and full audit traceability.
             </p>
           </div>
           {/* Pillar 2 */}
@@ -78,9 +92,7 @@ export default function Home() {
             </div>
             <h3 className="text-xl font-semibold mb-3">Privacy by Design</h3>
             <p className="text-gray-400 leading-relaxed">
-              Consent management, purpose limitation, pseudonymization, and
-              export controls are embedded in the platform core — not bolted on
-              later.
+              Privacy isn't an afterthought — it's engineered into the platform core. Patient consent, data minimization, and access boundaries are built in from day one.
             </p>
           </div>
           {/* Pillar 3 */}
@@ -90,25 +102,9 @@ export default function Home() {
             </div>
             <h3 className="text-xl font-semibold mb-3">Global Compliance</h3>
             <p className="text-gray-400 leading-relaxed">
-              Designed for multi-jurisdictional operation from the ground up.
-              HIPAA, GDPR, and Korean PIPA compliance built into every data
-              flow.
+              Built for multi-jurisdictional healthcare from the ground up. Region-aware data governance ensures compliance across global regulatory frameworks.
             </p>
           </div>
-        </div>
-      </section>
-
-      {/* ───────── About Section ───────── */}
-      <section id="about" className="px-8 py-24 border-t border-gray-800">
-        <div className="max-w-3xl mx-auto text-center">
-          <h2 className="text-3xl font-bold mb-8">What is XGMS ONE?</h2>
-          <p className="text-gray-400 text-lg leading-relaxed">
-            XGMS ONE is a next-generation cloud-based Electronic Medical Record
-            (EMR) platform that unifies clinical workflows, AI-driven decision
-            support, and privacy-preserving data analytics into a single global
-            SaaS solution. We are building the standard hospital database that
-            healthcare institutions worldwide can trust.
-          </p>
         </div>
       </section>
 
@@ -127,18 +123,16 @@ export default function Home() {
           <div className="p-8 bg-gray-950 rounded-2xl border border-gray-800 text-left">
             <div className="flex items-center justify-between mb-4">
               <h3 className="text-xl font-semibold">
-                Chief Technology Officer (CTO)
+                Engineering & Platform Team 
               </h3>
               <span className="px-3 py-1 text-xs font-medium text-green-300 bg-green-950 rounded-full border border-green-800">
                 Open
               </span>
             </div>
             <p className="text-gray-400 leading-relaxed mb-6">
-              We are looking for a visionary CTO to lead the architecture and
-              engineering of XGMS ONE. You will own the Technical Constitution,
-              drive cloud infrastructure decisions, and build a world-class
-              engineering team for a platform designed to serve hospitals
-              globally.
+              We're growing the core team behind XGMS ONE. 
+              If you're passionate about cloud-native architecture, healthcare data systems, 
+              or building products that serve hospitals worldwide — we'd love to hear from you.
             </p>
             <div className="flex flex-wrap gap-2 mb-6">
               <span className="px-3 py-1 text-xs bg-gray-800 rounded-full">

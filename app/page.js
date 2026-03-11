@@ -38,8 +38,8 @@ export default function Home() {
                     </span>
         </h1>
         <p className="mt-6 text-lg text-gray-400 max-w-2xl leading-relaxed">
-          XGMS ONE is a cloud-based EMR SaaS platform designed to help hospitals deliver safer, 
-          smarter, and more trusted care — anywhere in the world.
+          XGMS is a healthcare technology company redefining hospital operations — 
+          one platform for safer, smarter, and trusted care delivery.
         </p>
         <div className="flex gap-4 mt-10">
           <a
@@ -179,7 +179,7 @@ export default function Home() {
 
       {/* ───────── Footer ───────── */}
       <footer className="px-8 py-8 border-t border-gray-800 text-center text-sm text-gray-500">
-        <p>© 2026 XGMS. Privacy & Compliance First.</p>
+        <p>© 2025 XGMS. Privacy & Compliance First.</p>
         <p className="mt-1">Seoul, South Korea · Building for the World</p>
       </footer>
     </div>

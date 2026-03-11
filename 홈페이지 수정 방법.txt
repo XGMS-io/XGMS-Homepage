@@ -1,0 +1,29 @@
+# ──── 1단계: PowerShell 열기 ────
+# Windows키 → "PowerShell" 검색 → 실행
+
+# ──── 2단계: 프로젝트 폴더로 이동 ────
+cd C:\Users\ADMIN\OneDrive\Desktop\Homepage\xgms-homepage
+
+# ──── 3단계: 개발 서버 켜기 ────
+npm run dev
+# → "Local: http://localhost:3000" 메시지가 나오면 성공
+# → 브라우저에서 http://localhost:3000 열기
+
+# ──── 4단계: VS Code에서 page.js 수정 ────
+# 방법 1: PowerShell을 하나 더 열고 아래 입력
+cd ~\Desktop\Homepage\xgms-homepage
+code .
+
+# 방법 2: VS Code를 먼저 열고 → File → Open Folder → xgms-homepage 폴더 선택
+# → 왼쪽 파일 목록에서 app → page.js 클릭 → 내용 수정 → Ctrl+S 저장
+# → 브라우저가 자동으로 새로고침됨 (Hot Reload)
+
+# ──── 5단계: 수정 결과가 마음에 들면 개발 서버 끄기 ────
+# npm run dev가 실행 중인 PowerShell 창에서 Ctrl+C 누르기
+
+# ──── 6단계: GitHub에 업로드 (같은 PowerShell 창에서) ────
+git add .
+git commit -m "Update: 수정 내용 설명"
+git push
+
+# ──── 끝! 1~2분 후 xgms.io에 자동 반영 ────
